@@ -4,7 +4,7 @@ import './form.scss';
 
 function Form(props) {
 
-  handleSubmit = (e) => {
+ const handleSubmit = (e) => {
     e.preventDefault();
     const formData = {
       method:'GET',
